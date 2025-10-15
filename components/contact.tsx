@@ -49,8 +49,8 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <div className="space-y-8">
+        <div className="grid lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          {/* <div className="space-y-8">
             <Card className="border-border/50">
               <CardContent className="p-8">
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -139,7 +139,7 @@ export function Contact() {
                 </form>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
 
           <div className="space-y-6">
             <Card className="border-border/50">
@@ -210,21 +210,21 @@ export function Contact() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="border-border/50 overflow-hidden">
-              <div className="aspect-video">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.441167188548!2d-44.12036052400881!3d-19.905805681477247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6eae9748e8e45%3A0xd0f4e874773b06d7!2sR.%2083%2C%20243%20-%20Tropical%2C%20Contagem%20-%20MG%2C%2032070-080!5e0!3m2!1sen!2sbr!4v1760568353170!5m2!1sen!2sbr"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização Ambbar Recepções"
-                />
-              </div>
-            </Card>
           </div>
+          <Card className="border-border/50 overflow-hidden">
+            {/* <div className="aspect-video"> */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.441167188548!2d-44.12036052400881!3d-19.905805681477247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6eae9748e8e45%3A0xd0f4e874773b06d7!2sR.%2083%2C%20243%20-%20Tropical%2C%20Contagem%20-%20MG%2C%2032070-080!5e0!3m2!1sen!2sbr!4v1760568353170!5m2!1sen!2sbr"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Localização Ambbar Recepções"
+            />
+            {/* </div> */}
+          </Card>
         </div>
       </div>
     </section>
